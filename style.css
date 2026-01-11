@@ -1,0 +1,185 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+
+#hero {
+    background: #ffffff;
+}
+
+#about {
+    background: #f7f7f7;
+}
+
+#features {
+    background: #ffffff;
+}
+
+#contact {
+    background: #f7f7f7;
+}
+
+
+h1 {
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #444;
+}
+
+
+.scroll-down {
+    margin-top: 40px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    opacity: 0.6;
+}
+
+
+.btn {
+    padding: 12px 30px;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #333;
+}
+
+
+.features-container {
+    display:flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.card {
+    background: white;
+    padding: 25px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #ffffff;
+}
+
+
+.center-container {
+    position: relative;
+    width: 100%;
+    height: 620px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bg-symbol {
+    position: absolute;
+    font-size: 420px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.05);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    z-index: -1;
+    user-select: none;
+}
+
+
+.title {
+    font-size: 60px;
+    letter-spacing: 8px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.subtext {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.desc {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 45px;
+}
+
+
+.login-btn {
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 18px 40px;
+    border-radius: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    opacity: 0.8;
+}
+
+
+.footer-text {
+    margin-top: 30px;
+    font-size: 17px;
+    text-align: center;
+    color: #666;
+}
